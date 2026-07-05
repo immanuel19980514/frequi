@@ -160,7 +160,7 @@ watch(
     </div>
     <div class="h-full flex">
       <div class="min-w-0 w-full flex-1">
-        <CandleChart
+        <LwcCandleChart
           v-if="hasDataset"
           :dataset="dataset"
           :trades="trades"
